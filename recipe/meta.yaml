@@ -10,7 +10,7 @@ source:
   sha256: 26eeba99d769503fe9a7e67b183b80bc4f9df0464749154d6546af6b0b7110ee
 
 build:
-  number: 0
+  number: 1
   noarch: python
   script: {{ PYTHON }} -m pip install . -vv
 
@@ -51,4 +51,6 @@ about:
 
 extra:
   recipe-maintainers:
+    - pyiron-runner
     - jan-janssen
+    - sudarsan-surendralal
