@@ -122,4 +122,6 @@ Feedstock Maintainers
 =====================
 
 * [@jan-janssen](https://github.com/jan-janssen/)
+* [@pyiron-runner](https://github.com/pyiron-runner/)
+* [@sudarsan-surendralal](https://github.com/sudarsan-surendralal/)
 
