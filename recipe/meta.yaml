@@ -1,5 +1,5 @@
 {% set name = "pyiron_contrib" %}
-{% set version = "0.0.3" %}
+{% set version = "0.0.4" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 5266997ceb901fe294ca8a3b40bb7a6ae4e1e8f517bca31e9ec33af1f001b583
+  sha256: 7ec4d6a923e36a407cb334e031d2204ce090cce120583fab5691af2e0359402d
 
 build:
   number: 0
@@ -23,7 +23,7 @@ requirements:
     - matplotlib-base >=3.3.4
     - numpy >=1.16  # >=1.20.1
     - pyiron >=0.4.0
-    - pyiron_atomistics >=0.2.4
+    - pyiron_atomistics >=0.2.5
     - python >=3.6
     - scikit-image >=0.18.1
     - scipy >=1.6.0
