@@ -1,5 +1,5 @@
 {% set name = "pyiron_contrib" %}
-{% set version = "0.0.14" %}
+{% set version = "0.1.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 75e893c1079fac1103eb8e3cdfdad41ef0e7331e9e3c09b191c93b40b09bb919
+  sha256: f569b941b35b5b964df14db82854394eee7b9eb2acd602565202a216441f309b
 
 build:
   number: 0
