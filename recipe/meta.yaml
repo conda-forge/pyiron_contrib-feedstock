@@ -19,15 +19,15 @@ requirements:
     - pip
     - python >=3.6
   run:
-    - ase =3.22.1
+    - ase >=3.22.1
     - matplotlib-base >=3.3.4
-    - numpy =1.22.4
+    - numpy >=1.22.4
     - pyiron >=0.4.3
-    - pyiron_atomistics =0.2.47
+    - pyiron_atomistics >=0.2.47
     - python >=3.6
-    - scikit-image =0.19.2
-    - scipy =1.8.1
-    - seaborn =0.11.2
+    - scikit-image >=0.19.2
+    - scipy >=1.8.1
+    - seaborn >=0.11.2
 
 test:
   imports:
