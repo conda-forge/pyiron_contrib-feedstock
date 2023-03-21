@@ -40,7 +40,7 @@ test:
   imports:
     - pyiron_contrib
     - pyiron_contrib.image
-    - pyiron
+    - pyiron_atomistics
   commands:
     - pip check
   requires:
