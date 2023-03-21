@@ -30,7 +30,6 @@ requirements:
     - seaborn >=0.12.2
     - pyparsing >=3.0.9
     - pycp2k >=0.2.2
-    - boto3 >=1.26.74
     - moto >=4.1.3
     - sqlalchemy <2.0.0  # mendeleev is not compatible by now
     - randspg >=0.0.1
@@ -41,6 +40,7 @@ test:
   imports:
     - pyiron_contrib
     - pyiron_contrib.image
+    - pyiron
   commands:
     - pip check
   requires:
