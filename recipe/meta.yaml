@@ -35,6 +35,7 @@ requirements:
     - sqlalchemy <2.0.0  # mendeleev is not compatible by now
     - randspg >=0.0.1
     - typeguard >=2.13.3
+    - aws-sam-translator >=1.60.1
 
 test:
   imports:
