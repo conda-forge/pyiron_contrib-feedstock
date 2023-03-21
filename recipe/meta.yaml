@@ -1,5 +1,5 @@
 {% set name = "pyiron_contrib" %}
-{% set version = "0.1.7" %}
+{% set version = "0.1.8" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: da5ed641b9c990b093ca377ed7d70b2b6042df29e401f02ceb4dcaeef5f73537
+  sha256: 6bfad73af60c480c2954541cdd0f2c202f5b66fd6e2c3e4421f0d7f8cb951da8
 
 build:
   number: 0
@@ -33,6 +33,8 @@ requirements:
     - boto3 >=1.26.74
     - moto >=4.1.3
     - sqlalchemy <2.0.0  # mendeleev is not compatible by now
+    - randspg >=0.0.1
+    - typeguard >=2.13.3
 
 test:
   imports:
