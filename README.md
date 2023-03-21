@@ -1,11 +1,11 @@
-About pyiron_contrib
-====================
+About pyiron_contrib-feedstock
+==============================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/pyiron_contrib-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/pyiron/pyiron_contrib
 
 Package license: BSD-3-Clause
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/pyiron_contrib-feedstock/blob/main/LICENSE.txt)
 
 Summary: Repository for user-generated plugins to the pyiron IDE.
 
