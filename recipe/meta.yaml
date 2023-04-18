@@ -1,5 +1,5 @@
 {% set name = "pyiron_contrib" %}
-{% set version = "0.1.8" %}
+{% set version = "0.1.9" %}
 
 package:
   name: {{ name|lower }}
@@ -7,10 +7,10 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 6bfad73af60c480c2954541cdd0f2c202f5b66fd6e2c3e4421f0d7f8cb951da8
+  sha256: 9e443a3f5fe99b2188f8031eed255a9046a097584d80cb227da4ad630a902e90
 
 build:
-  number: 2
+  number: 0
   noarch: python
   script: {{ PYTHON }} -m pip install . -vv
 
@@ -20,20 +20,19 @@ requirements:
     - python >=3.6
   run:
     - ase >=3.22.1
-    - matplotlib-base >=3.7.0
+    - matplotlib-base >=3.7.1
     - numpy >=1.19.5  # for numba and pytorch compatibility
-    - pyiron_base >=0.5.33
-    - pyiron_atomistics >=0.2.63
+    - pyiron_base >=0.5.36
+    - pyiron_atomistics >=0.2.66
     - python >=3.6
-    - scikit-image >=0.19.3
-    - scipy >=1.10.0
+    - scikit-image >=0.20.0
+    - scipy >=1.10.1
     - seaborn >=0.12.2
     - pyparsing >=3.0.9
     - pycp2k >=0.2.2
-    - moto >=4.1.3
-    - sqlalchemy <2.0.0  # mendeleev is not compatible by now
+    - moto >=4.1.7
     - randspg >=0.0.1
-    - typeguard >=2.13.3
+    - typeguard >=3.0.2
     - aws-sam-translator >=1.60.1
 
 test:
