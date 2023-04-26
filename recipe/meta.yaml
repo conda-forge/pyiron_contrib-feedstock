@@ -1,5 +1,5 @@
 {% set name = "pyiron_contrib" %}
-{% set version = "0.1.9" %}
+{% set version = "0.1.10" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 9e443a3f5fe99b2188f8031eed255a9046a097584d80cb227da4ad630a902e90
+  sha256: 48346eef342e214888995a7978dba6d74700db3648b901853d6804f4fbd7762b
 
 build:
   number: 0
@@ -30,7 +30,7 @@ requirements:
     - seaborn >=0.12.2
     - pyparsing >=3.0.9
     - pycp2k >=0.2.2
-    - moto >=4.1.7
+    - moto >=4.1.8
     - randspg >=0.0.1
     - typeguard >=3.0.2
     - aws-sam-translator >=1.60.1
