@@ -21,6 +21,7 @@ requirements:
   run:
     - ase >=3.22.1
     - matplotlib >=3.7.2
+    - matplotlib-base >=3.7.2
     - numpy >=1.19.5  # for numba and pytorch compatibility
     - pyiron_base >=0.5.36
     - pyiron_atomistics >=0.2.66
