@@ -1,5 +1,5 @@
 {% set name = "pyiron_contrib" %}
-{% set version = "0.1.10" %}
+{% set version = "0.1.11" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 48346eef342e214888995a7978dba6d74700db3648b901853d6804f4fbd7762b
+  sha256: 84d844c6337565d25860db5bd632e78c8c01bb1daf78ebf3019dbe5f3837b9a4
 
 build:
   number: 0
@@ -34,6 +34,9 @@ requirements:
     - randspg >=0.0.1
     - typeguard >=3.0.2
     - aws-sam-translator >=1.60.1
+    - boto3 =1.28.15
+    - pympipool >=0.6.1
+    - distributed =2023.5.0
 
 test:
   imports:
