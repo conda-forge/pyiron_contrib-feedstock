@@ -9,13 +9,6 @@ Package license: BSD-3-Clause
 
 Summary: Repository for user-generated plugins to the pyiron IDE.
 
-Development: https://github.com/pyiron/pyiron_contrib
-
-Documentation: https://github.com/pyiron/pyiron_contrib
-
-Repository for user-generated plugins to the pyiron IDE.
-
-
 Current build status
 ====================
 
