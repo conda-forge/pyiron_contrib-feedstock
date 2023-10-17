@@ -36,6 +36,7 @@ test:
     - pip check
   requires:
     - pip
+    - boto3
 
 about:
   home: https://github.com/pyiron/pyiron_contrib
