@@ -8,8 +8,6 @@ package:
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/pyiron_contrib-{{ version }}.tar.gz
   sha256: fdfc014a894a061d1fff97c98ccf66a169a495bc77178e142866451c46b20708
-  patches:
-    - versioneer.patch
 
 build:
   noarch: python
