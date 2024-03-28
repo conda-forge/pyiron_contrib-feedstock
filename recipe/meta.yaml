@@ -1,5 +1,5 @@
 {% set name = "pyiron_contrib" %}
-{% set version = "0.1.15" %}
+{% set version = "0.1.16" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/pyiron_contrib-{{ version }}.tar.gz
-  sha256: 2abfa82a3ebc8a0df64454c46c1d2902889cf0e156148ef57ec1e4be0b05adb7
+  sha256: c906c0be2f8d2e180bc358ad4f8e8897f9d878eb3f2300cc6e3b8594af0a98ee
 
 build:
   noarch: python
@@ -20,12 +20,12 @@ requirements:
     - pip
   run:
     - python >=3.6
-    - matplotlib-base >=3.8.2
+    - matplotlib-base >=3.8.3
     - numpy >=1.26.4  # for numba compatibility
-    - pyiron_base >=0.7.8
+    - pyiron_base >=0.7.9
     - scipy >=1.12.0
     - seaborn >=0.13.2
-    - pyparsing >=3.1.1
+    - pyparsing >=3.1.2
 
 test:
   imports:
