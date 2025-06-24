@@ -27,7 +27,7 @@ Current release info
 
 | Name | Downloads | Version | Platforms |
 | --- | --- | --- | --- |
-| [![Conda Recipe](https://img.shields.io/badge/recipe-pyiron_contrib-green.svg)](https://anaconda.org/conda-forge/pyiron_contrib) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/pyiron_contrib.svg)](https://anaconda.org/conda-forge/pyiron_contrib) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/pyiron_contrib.svg)](https://anaconda.org/conda-forge/pyiron_contrib) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/pyiron_contrib.svg)](https://anaconda.org/conda-forge/pyiron_contrib) |
+| [![Conda Recipe](https://img.shields.io/badge/recipe-pyiron__contrib-green.svg)](https://anaconda.org/conda-forge/pyiron_contrib) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/pyiron_contrib.svg)](https://anaconda.org/conda-forge/pyiron_contrib) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/pyiron_contrib.svg)](https://anaconda.org/conda-forge/pyiron_contrib) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/pyiron_contrib.svg)](https://anaconda.org/conda-forge/pyiron_contrib) |
 
 Installing pyiron_contrib
 =========================
